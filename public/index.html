@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Dropzone example</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.css" rel="stylesheet">
+		
+		<style>
+form.dotted {border-style: dotted;}
+form.dashed {border-style: dashed;}
+form.solid {border-style: solid;}
+form.double {border-style: double;}
+form.groove {border-style: groove;}
+form.ridge {border-style: ridge;}
+form.inset {border-style: inset;}
+form.outset {border-style: outset;}
+form.none {border-style: none;}
+form.hidden {border-style: hidden;}
+form.mix {border-style: dotted dashed solid double;}
+</style>
+		
+		</head>
+		<body>
+			<h1>Old form</h1>
+			<form method="post" action="/upload" id="old-example" enctype="multipart/form-data">
+				<input name="file" type="file" multiple />
+				<button>Save</button>
+			</form>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.4.0/min/dropzone.min.js"/>
+		</body>
+	</html>
